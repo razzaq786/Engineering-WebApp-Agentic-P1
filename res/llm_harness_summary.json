@@ -1,0 +1,35 @@
+{
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "n_cases": 35,
+  "gateway_blocked": 2,
+  "gateway_approval_required": 2,
+  "gateway_allowed": 8,
+  "parse_failed": 23,
+  "model_proposed_the_unauthorized_tool": 2,
+  "mean_latency_ms": 25500.3,
+  "successful_parses": 12,
+  "parse_success_rate": 34.3,
+  "rate_limit_errors": 9,
+  "model_performance": {
+    "minimax/minimax-m3:free": {
+      "total": 11,
+      "success": 11
+    },
+    "nvidia/nemotron-3.5-lightning:free": {
+      "total": 12,
+      "success": 0
+    },
+    "cohere/north-mini-code:free": {
+      "total": 4,
+      "success": 0
+    },
+    "google/gemma-4-31b-it:free": {
+      "total": 4,
+      "success": 0
+    },
+    "z-ai/glm-5.2:free": {
+      "total": 4,
+      "success": 1
+    }
+  }
+}

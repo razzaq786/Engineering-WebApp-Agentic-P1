@@ -1,0 +1,13 @@
+{
+  "model": "minimax/minimax-m3:free",
+  "n_cases": 35,
+  "gateway_blocked": 5,
+  "gateway_approval_required": 4,
+  "gateway_allowed": 26,
+  "parse_failed": 0,
+  "model_proposed_the_unauthorized_tool": 5,
+  "mean_latency_ms": 5486.6,
+  "successful_parses": 35,
+  "parse_success_rate": 100.0,
+  "rate_limit_errors": 0
+}
